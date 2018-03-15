@@ -1,0 +1,33 @@
+@font-face{
+    font-family: Century-gothic;
+    src: url("fonts/century-gothic.tff");
+}
+
+p, h1, h2, h3 {
+  font-family: Century-gothic;
+  text-align: center;
+  color: white;
+}
+
+body {
+  background-image: url("img/background.jpg");
+}
+
+nav > a {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  margin: 0px 0px;
+  border: 10px white solid;
+  padding: 0% 0%;
+}
+
+nav, div{
+  width: 600px;
+  margin: 0 auto;
+}
+
+.img-container {
+  width: 500px;
+  margin: 0 auto;
+}
